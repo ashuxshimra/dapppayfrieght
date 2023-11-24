@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    /* width: 100%; */
+    max-height: 112px;
+}
+.submitBtn {
+    display: flex;
+    margin-inline: auto;
+}
+
+.mainContainer {
+    width: 100%;
+}
+
+.homeContainer {
+    display: flex;
+    width: 100vw;
+}
+
+.form_shipper {
+    overflow-y: auto;
+    max-height: calc(100vh - 124px);
+    max-width: 60%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Sidebar styles */
+aside {
+    background-color: #333;
+    color: white;
+    width: 200px;
+    padding: 120px 20px 20px 20px;
+    box-sizing: border-box;
+    height: 100vh;    
+
+}
+
+aside a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+.cardContainer {
+    margin: 1.2rem 2rem;
+}
+
+.card {
+    width: 100%;
+    /* max-width: 600px; Adjust the maximum width as needed */
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    position: relative;
+}
+
+.cardBtns {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translate(0, -50%);
+    display: flex;
+    gap: 4px;
+}
+
+.reqStatus {
+    
+    background-color: #ababab;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.deleteReq {
+    background-color: rgb(198, 10, 10);
+}
+.greenBtn {
+    background-color: rgb(3, 149, 67);
+}
+
+.card h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+    line-height: 1.6;
+}
+.payBtn {
+    padding: 6px 12px;
+    color: white;
+    background: forestgreen;
+}

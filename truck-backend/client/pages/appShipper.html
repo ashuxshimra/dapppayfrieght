@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW3 | Main</title>
+    <link rel="stylesheet" href="../styles/appShipper.css">
+</head>
+<body>
+    <aside>
+        <a href="#">Home</a>
+        <a href="#">Shipment Requests</a>
+        <a href="#">History</a>
+    </aside>
+
+    <main>
+        <header>
+            <h1>Book a Truck</h1>
+        </header>
+        <div class="form_shipper">
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="companyName">Company Name(optional):</label>
+            <input type="text" id="companyName" name="companyName">
+            
+            <label for="pickup">Pickup Location:</label>
+            <input type="text" id="pickup" name="pickup" required>
+
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" name="destination" required>
+            
+            <label for="loadType">Load Type:</label>
+            <input type="text" id="loadType" name="loadType" required>
+
+            <label for="weight">Total Weight:</label>
+            <input type="text" id="weight" name="weight" required>
+
+            <label for="date">Date of Shipment:</label>
+            <input type="date" id="date" name="date" required>
+        
+            <label for="delieverTill">Deliever Till:</label>
+            <input type="date" id="delieverTill" name="delieverTill" required>
+
+        </form>
+        <button id="submitBtn">Request Driver</button>
+    </div>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="../scripts/appShipper.js"></script>
+</body>
+</html>
